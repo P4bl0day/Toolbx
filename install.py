@@ -2,13 +2,8 @@ import os
 
 
 def debian():
-	options = input('''
-one last step plase select you department?
-\t1.pentester/ethical hacker
-\t2.developer(web)
-\t3.reverse Enginer
-\t4.social Enginer
-		''')
+	options = input('''Hey, welcome. choose the magic number \n [1.cyber-sec], [2.developer],\n
+ [3.cyber-sec(reverse-eng toolkit's)], [4.cyber-sec(social-eng toolkit's)]''')
 	if options == '1':
 		deb_eth_tool = ['nmap', 'nc', 'dirb', 'weevely', 'wireshark', 'sqlmap', 'sql', 'sqllite', 'crunch', 'aircrack-ng', 'wifite2', 'macchanger', 'bettercap',
 		'proxychain4', 'dirbuster', 'beef-xss', 'hashcat', 'hash-identifier', 'dmitry', 'john', 'hidra', 'defcon', 'waffw0ff', 'medusa', 'nikto', 'recon-ng'
